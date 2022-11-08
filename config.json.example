@@ -1,0 +1,4 @@
+{
+    "datasets_no_test_path": "./datasets_no_test",
+    "datasets_path": "./datasets"
+}

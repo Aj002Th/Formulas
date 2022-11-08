@@ -1,0 +1,4 @@
+*.exe
+datasets_no_test/
+datasets/
+config.json
