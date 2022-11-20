@@ -19,7 +19,7 @@
 
     "bucket_train": true, // 分批次
     "bucket_val": true, // 分批次
-    "bucket_test": true, // 分批次
+    "bucket_test": false, // 分批次
 
     "max_iter"          : null, // 最大迭代次数
     "max_length_formula": 150, // 最大公式长度
