@@ -72,6 +72,7 @@ Z
 \Bigl
 \Bigr
 \Delta
+\div
 \Gamma
 \Im
 \L
@@ -99,6 +100,7 @@ Z
 \acute
 \aleph
 \alpha
+\angle
 \approx
 \arccos
 \arcsin
@@ -109,6 +111,7 @@ Z
 \b
 \backslash
 \bar
+\because
 \begin{array}
 \begin{cases}
 \begin{matrix}
@@ -151,6 +154,7 @@ Z
 \cot
 \coth
 \cup
+\curvearrowleft
 \d
 \dag
 \dagger
@@ -179,6 +183,7 @@ Z
 \equiv
 \eta
 \exp
+\exists
 \fbox
 \flat
 \footnotesize
@@ -227,6 +232,7 @@ Z
 \leftrightarrow
 \left|
 \leq
+\leqslant
 \lfloor
 \lim
 \line
@@ -240,6 +246,7 @@ Z
 \makebox
 \mapsto
 \mathbf
+\mathbb
 \mathcal
 \mathit
 \mathop
@@ -259,6 +266,8 @@ Z
 \noalign
 \nonumber
 \not
+\nsubseteq
+\nsucceq
 \nu
 \o
 \odot
@@ -279,6 +288,7 @@ Z
 \pi
 \pm
 \pounds
+\preceq
 \prime
 \prod
 \propto
@@ -292,6 +302,7 @@ Z
 \rangle
 \rbrace
 \rbrack
+\rceil
 \ref
 \rfloor
 \rho
@@ -325,14 +336,18 @@ Z
 \slash
 \small
 \smallskip
+\smile
 \sp
 \space
+\sqcap
 \sqrt
+\square
 \stackrel
 \star
 \strut
 \subset
 \subseteq
+\succ
 \sum
 \sup
 \supset
@@ -344,6 +359,7 @@ Z
 \textstyle
 \textup
 \theta
+\therefore
 \thinspace
 \tilde
 \times
@@ -353,14 +369,17 @@ Z
 \tt
 \underbrace
 \underline
+\underset
 \unitlength
 \uparrow
 \upsilon
 \varepsilon
+\varnothing
 \varphi
 \varpi
 \varrho
 \varsigma
+\varsubsetneqq
 \vartheta
 \vdots
 \vec
@@ -378,6 +397,8 @@ Z
 \{
 \|
 \}
+\%
+\&
 ]
 ^
 _
