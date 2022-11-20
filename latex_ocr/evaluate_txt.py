@@ -12,7 +12,7 @@ from model.evaluation.text import score_files
 
 
 @click.command()
-@click.option('--results', default="results/small/", help='Dir to results')
+@click.option('--results', default="results/hand/", help='Dir to results')
 def main(results):
     # restore config and model
     dir_output = results

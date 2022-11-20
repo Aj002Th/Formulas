@@ -15,9 +15,9 @@
 
     "bucket_train": true,
     "bucket_val": true,
-    "bucket_test": true,
+    "bucket_test": false,
 
-    "max_iter"          : 5000,
+    "max_iter"          : null,
     "max_length_formula": 150,
 
     "buckets": [

@@ -3,7 +3,7 @@
     "device": "cuda:1",
     "criterion_method": "CrossEntropyLoss",
     "n_epochs": 10,
-    "batch_size": 4,
+    "batch_size": 2,
     "dropout": 0.8,
     "clip": -1,
     "lr_method": "Adam",
