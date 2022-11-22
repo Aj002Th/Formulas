@@ -3,3 +3,5 @@ datasets_no_test/
 datasets_no_test.zip
 datasets/
 config.json
+
+.ipynb_checkpoints/

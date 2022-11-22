@@ -21,7 +21,15 @@ from image_to_latex.lit_models import LitResNetTransformer
 def main(cfg: DictConfig):
     datamodule = Im2Latex(**cfg.data)
     datamodule.setup()
-    lit_model = LitResNetTransformer(**cfg.lit_model)
+    
+    # 将 outputs/yy-mm-dd/wandb/latest-run/files/image-to-latex/epoch=XXX/loss=YYY/cer=ZZZ.ckpt
+    # 转移到 outputs/ 下进行
+    checkpoints = list((Path(modulePath) / 'outputs').rglob('*.ckpt'))
+    checkpoints.extend(list((Path(modulePath) / 'outputs').rglob('*.pt')))
+    if len(checkpoints) > 0:
+        lit_model = LitResNetTransformer.load_from_checkpoint(checkpoints[0])
+    else:
+        lit_model = LitResNetTransformer(**cfg.lit_model)
 
     callbacks: List[Callback] = []
     if cfg.callbacks.model_checkpoint:
