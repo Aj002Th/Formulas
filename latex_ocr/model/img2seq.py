@@ -184,7 +184,7 @@ class Img2SeqModel(BaseModel):
                 summary_str = self.sess.run(self.merged, feed_dict=fd)
                 self.file_writer.add_summary(summary_str, epoch)  # 将summary 写入文件
 
-            # if (i+1) % 100 == 0:
+            # if (i+1) % 1000 == 0:
             #     # 太慢了，读了 100 批次后就保存先，保存的权重要用于调试 attention
             #     self.save_debug_session(epoch, i)
 

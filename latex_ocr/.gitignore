@@ -121,3 +121,4 @@ tmp/
 *.zip
 *.7z
 out/
+nohup.out
